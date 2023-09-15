@@ -1,5 +1,14 @@
 {
-  "name": "hardhat-project",
+  "name": "swisstronik-challenge-2",
+  "author": "Karan Agrawal",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run --network swisstronik scripts/deploy.js",
+    "mint": "hardhat run --network swisstronik scripts/mint.js",
+    "burn": "hardhat run --network swisstronik scripts/burn.js"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "hardhat": "^2.17.3"
